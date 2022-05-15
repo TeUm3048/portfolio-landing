@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="fonts/Gilroy-Medium/style.css">
+    <link rel="stylesheet" href="fonts/Gilroy-Bold/style.css">
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="home">
+            <div class="container">
+                <a name="home"></a>
+                <div class="home-box">
+                    <h2 class="home-name">Denis<br>Novik</h2>
+                    <p>UX | UI designer<br>24 years old, Minsk</p>
+                    <div class="lang-switcher">
+                        <a href="">RU</a>
+                        |
+                        <a href="" class="active">ENG</a>
+                    </div>
+                </div>
+                <div class="home-img"></div>
+
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <a name="about me"></a>
+                <div class="about-box">
+                    <h2>About me</h2>
+                    <div class="about-text-box">
+                        <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                            I'm interested in design and everything connected with it.</p>
+                        <p>I'm studying at courses "Web and mobile design <br>
+                            interfaces" in IT-Academy.</p>
+                        <p>Ready to implement excellent projects <br>
+                            with wonderful people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="container">
+                <div class="skills-box">
+                    <h2>Skills</h2>
+                    <p>I work in such programs as</p>
+                    <div class="programs">
+                        <div class="program">
+                            <img src="images/photoshop.svg" alt="" class="program-img">
+                            <div class="program-name">Adobe <br> Photoshop</div>
+                            <div class="program-stars">
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star"></div>
+
+                            </div>
+                        </div>
+                        <div class="program">
+                            <img src="images/illustrator.svg" alt="" class="program-img">
+                            <div class="program-name">Adobe <br> Illustrator</div>
+                            <div class="program-stars">
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star"></div>
+                                <div class="program-star"></div>
+
+                            </div>
+                        </div>
+                        <div class="program">
+                            <img src="images/after-effects.svg" alt="" class="program-img">
+                            <div class="program-name">Adobe <br> After Effects</div>
+                            <div class="program-stars">
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star"></div>
+
+                            </div>
+                        </div>
+                        <div class="program">
+                            <img src="images/figma.svg" alt="" class="program-img">
+                            <div class="program-name">Figma</div>
+                            <div class="program-stars">
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star program-star--active"></div>
+                                <div class="program-star"></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="container">
+                <h2 class="portfolio-title">Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="images/onlineFashionStore-homepage.png" alt="" class="portfolio-img">
+                    <div class="portfolio-text">Online fashion store - Homepage</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/reebok_web.png" alt="" class="portfolio-img">
+                    <div class="portfolio-text">Reebok Store - Concept</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/braunLandingPage-concept.png" alt="" class="portfolio-img">
+                    <div class="portfolio-text">Braun Landing Page - Concept</div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(function () {
+            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+        });
+    </script>
+</body>
+
+</html>

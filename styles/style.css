@@ -1,0 +1,200 @@
+body {
+    font-family: "Gilroy";
+    font-size: 18px;
+    line-height: 1.2;
+    color: #070707;
+    background-color: #F6F6F6;
+}
+
+h2 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+}
+
+.menu {
+    font-weight: 700;
+    margin: 30px 0 0;
+}
+
+.menu::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.menu a:hover {
+    color: #070707;
+}
+
+.menu a.active {
+    color: #070707;
+}
+
+.lang-switcher {
+    margin: 0 0px 13px 0;
+    writing-mode: tb-lr;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    font-size: 16px;
+}
+
+.lang-switcher a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.lang-switcher a:hover {
+    color: #070707;
+}
+
+.lang-switcher a.active {
+    color: #070707;
+
+}
+
+.home {
+    margin: 0 0 107px;
+    background-color: #fff;
+}
+
+.home-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 32px 0 40px;
+
+}
+
+.home-name {
+    font-size: 47px;
+    line-height: 58px;
+    margin: 0;
+}
+
+.home p {
+    margin: 0px 50px 12px 0px;
+}
+
+.home-img {
+    width: 100%;
+    height: 387px;
+    background-size: 100%;
+    background-color: #090909;
+    background-image: url(../images/BSPP2266-desktop.jpg);
+    background-repeat: no-repeat;
+}
+
+.about {
+    padding: 112px 0 84px;
+    text-align: center;
+}
+
+.about-box {}
+
+.about h2 {}
+
+.about-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12.1em;
+    margin: 24px 0;
+}
+
+.about-text-box {}
+
+.about p {
+    margin: 0;
+}
+
+.skills {
+    padding: 86px 0 84px;
+    text-align: center;
+}
+
+.skills p {
+    margin: 58px 0 88px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program {
+    width: 166px;
+}
+
+.program-img {
+    height: 90px;
+    width: 90px;
+}
+
+.program-name {
+    margin: 15px 0 43px;
+    height: 2em;
+    font-size: 14px;
+    font-weight: 700;
+    color: #828282;
+}
+
+.program-stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-star {
+    height: 26px;
+    width: 26px;
+    background-color: #e5e5e5;
+    -webkit-mask: url(../images/Star.svg) no-repeat center;
+    mask: url(../images/Star.svg) no-repeat center;
+}
+
+.program-star--active {
+    background-color: #070707;
+
+}
+
+.portfolio {
+    padding: 133px 0 0;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 56px 0 100px;
+}
+.portfolio-img {
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+
+.portfolio-text {
+    width: fit-content;
+    border-bottom: solid 1px;
+}
